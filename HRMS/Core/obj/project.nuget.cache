@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MEBIZBd/ioo8kf5Sc952wArKlXJDfnGYSp3BQnsZ7u5XmHvjRbcvAL/alf/0IWPzcUOS8/gGe1lX4NbMWxCbDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\drrckmngllln\\Desktop\\HRMS\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
