@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HRMS.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240205013458_InitialCreate")]
+    [Migration("20240209032119_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -189,6 +189,33 @@ namespace HRMS.Infrastructure.Data.Migrations
                     b.ToTable("Positions");
                 });
 
+            modelBuilder.Entity("HRMS.Entities.Users", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AccessLevelId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AccessLevelId");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("HRMS.Entities.Employee", b =>
                 {
                     b.HasOne("HRMS.Entities.Department", "Department")
@@ -225,6 +252,17 @@ namespace HRMS.Infrastructure.Data.Migrations
                     b.Navigation("EmployeeName");
 
                     b.Navigation("LeaveType");
+                });
+
+            modelBuilder.Entity("HRMS.Entities.Users", b =>
+                {
+                    b.HasOne("HRMS.Entities.AccessLevels", "AccessLevel")
+                        .WithMany()
+                        .HasForeignKey("AccessLevelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AccessLevel");
                 });
 #pragma warning restore 612, 618
         }

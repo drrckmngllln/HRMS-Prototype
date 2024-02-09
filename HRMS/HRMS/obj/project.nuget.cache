@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/TlRgV0dknd/kFVHarJZlUsTmStAiLHx1zn759k6fvuy87SCqw6PD65HoSb/3MzPXlVEunqVtEJ2/ZQsO4m8XQ==",
+  "dgSpecHash": "WTQ6u6mUsRnSIVpnu1mxRbI5ahYAUMaW29rwGnvTMMZhDklVzByc5sw9ih08CNn1JRSLB6veApgK8mM39bqwBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\drrckmngllln\\Documents\\GitHub\\HRMS-Prototype\\HRMS\\HRMS\\HRMS.csproj",
   "expectedPackageFiles": [
@@ -46,7 +46,10 @@
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\mysqlconnector\\0.69.9\\mysqlconnector.0.69.9.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.0\\pomelo.entityframeworkcore.mysql.3.2.0.nupkg.sha512",
+    "C:\\Users\\drrckmngllln\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\drrckmngllln\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
