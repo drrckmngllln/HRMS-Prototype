@@ -47,7 +47,11 @@ namespace HRMS.Forms
 
         private void btnDepartments_Click(object sender, EventArgs e)
         {
-
+            var frm = new frmDepartments();
+            panelTask.Controls.Clear();
+            frm.TopLevel = false;
+            panelTask.Controls.Add(frm);
+            frm.Show();
         }
 
         private void btnAccessLevels_Click(object sender, EventArgs e)
@@ -62,6 +66,33 @@ namespace HRMS.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             var frm = new frmUserManagement();
+            panelTask.Controls.Clear();
+            frm.TopLevel = false;
+            panelTask.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnPositions_Click(object sender, EventArgs e)
+        {
+            var frm = new frmPositions();
+            panelTask.Controls.Clear();
+            frm.TopLevel = false;
+            panelTask.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnAttendance_Click(object sender, EventArgs e)
+        {
+            var frm = new frmAttendanceSetup();
+            panelTask.Controls.Clear();
+            frm.TopLevel = false;
+            panelTask.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnLeaveCredits_Click(object sender, EventArgs e)
+        {
+            var frm = new frmLeaveSetup();
             panelTask.Controls.Clear();
             frm.TopLevel = false;
             panelTask.Controls.Add(frm);

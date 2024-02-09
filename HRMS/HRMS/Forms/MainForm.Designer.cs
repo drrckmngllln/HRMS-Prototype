@@ -138,6 +138,7 @@
             btnLeaveCredits.Text = "Leave Credit";
             btnLeaveCredits.TextAlign = ContentAlignment.MiddleLeft;
             btnLeaveCredits.UseVisualStyleBackColor = true;
+            btnLeaveCredits.Click += btnLeaveCredits_Click;
             // 
             // btnAttendance
             // 
@@ -154,6 +155,7 @@
             btnAttendance.Text = "Attendance";
             btnAttendance.TextAlign = ContentAlignment.MiddleLeft;
             btnAttendance.UseVisualStyleBackColor = true;
+            btnAttendance.Click += btnAttendance_Click;
             // 
             // btnPositions
             // 
@@ -170,6 +172,7 @@
             btnPositions.Text = "Positions";
             btnPositions.TextAlign = ContentAlignment.MiddleLeft;
             btnPositions.UseVisualStyleBackColor = true;
+            btnPositions.Click += btnPositions_Click;
             // 
             // btnDepartments
             // 

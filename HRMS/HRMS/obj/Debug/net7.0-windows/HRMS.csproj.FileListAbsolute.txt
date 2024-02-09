@@ -92,3 +92,7 @@ C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0
 C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.frmEmployees.resources
 C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmAccessLevels.resources
 C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmUserManagement.resources
+C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmDepartments.resources
+C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmPositions.resources
+C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmAttendanceSetup.resources
+C:\Users\drrckmngllln\Documents\GitHub\HRMS-Prototype\HRMS\HRMS\obj\Debug\net7.0-windows\HRMS.Forms.Settings.frmLeaveSetup.resources
